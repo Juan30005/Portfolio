@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('paisg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+body background-image {
+  opacity: 0.8;
+}
+
+header {
+  background-color: #581414;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  display: flex;
+  height: 100px;
+  width: auto;
+
+}
+
+nav {
+  display: flex;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Estilo para as caixas de texto e textarea */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #581414;
+  /* Cor da borda */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra para um efeito 3D leve */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  /* Transição suave no foco */
+}
+
+/* Estilo ao focar nas caixas de texto e textarea */
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #a83232;
+  /* Cor da borda ao focar */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  /* Sombra mais intensa ao focar */
+  outline: none;
+  /* Remove o outline padrão */
+}
+
+/* Estilo para o botão de enviar */
+a.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #581414;
+  /* Cor de fundo */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  font-size: 18px;
+  transition: background-color 0.3s;
+  /* Transição suave no hover */
+}
+
+a.nav-link:hover {
+  background-color: #a83232;
+  /* Cor do botão ao passar o mouse */
+}
+
+
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.texto-contato,
+.form-contato {
+  padding: 80px 0 80px 0;
+  width: 45%;
+}
+
+.contato h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  padding: 0 0 20px 0;
+}
+
+.contato p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  line-height: 35px;
+
+}
+
+form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+}
+
+.Mensagem {
+  text-align: center;
+}
+
+.texto-rodape,
+.titulo-rodape {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  padding: 25px 0 25px 0;
+  background-color: #581414;
+  text-align: center;
+}
+
+.titulo-rodape {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}

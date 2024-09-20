@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Site</title>
+    <link rel="stylesheet" href="conta.css">
+    <link rel="stylesheet" href="contato.js">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .nav-link {
+            margin-right: 20px;
+        }
+
+        .nav-link:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <header>
+        <div class="logo">
+            <img src="Imagems do site/Logo site.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="Site_Home.html" class="link">Trabalhos</a>
+            <a href="sobre.html" class="link">Sobre Mim</a>
+            <a href="contato.html" class="link">Contato</a>
+        </nav>
+       
+    </header>
+    <section class="contato">
+        <div class="mx-auto p-2" style="width: 770px;">
+            <br><br>
+            <center>
+                <div class="mb-3"></div>
+                <h2 style="margin-top: 30px;">Se necessário, preencha os campos:</h2>
+                <div class="texto-contato">
+                    <div class="col-40">
+                        <form method="get" action=".">
+                            <form action="">
+                                <label>Nome:
+                                    <input name="nome" type="text" id="nome" size="40" /></label> <br>
+                                <label>Telefone:
+                                    <input name="telefone" type="text" id="telefone" size="40" /></label><br>
+                                <label>Email:
+                                    <input name="email" type="text" id="email" size="40" /></label><br>
+
+                                <label>Cep:
+                                    <input name="cep" type="text" id="cep" value="" size="40" maxlength="9"
+                                        onblur="pesquisacep(this.value);" /></label><br />
+                                <label>Cidade:
+                                    <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+                                <label>Estado:
+                                    <input name="uf" type="text" id="uf" size="40" /></label><br />
+                                <label for=" Mensagem "> Deixe uma Mensagem:</label><br>
+                                <textarea name="Mensagem " id="  Mensagem " cols="44" rows="4"></textarea>
+                            </form>
+                            <br>
+                           <a href="menssagem.html"class="nav-link">Enviar</a>
+                           
+                    </div>
+                </div>
+        </div>
+        </div>
+    </section>
+    </center>
+    <center>
+        
+    </center>
+    <br>
+</main>
+        </body>
+        <footer><br><br>
+            <p class="texto-rodape">
+                Juan.P.F.Tenório <br> Contato +55 (18)99756-7134
+            </p>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+            <script src="contato.js"></script>
+            </html>
